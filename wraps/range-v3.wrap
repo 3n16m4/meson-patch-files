@@ -1,0 +1,13 @@
+[wrap-file]
+directory = range-v3-0.11.0
+source_url = https://github.com/ericniebler/range-v3/archive/0.11.0.zip
+source_filename = range-v3-0.11.0.zip
+source_hash = 269e6a5ec8ac9967d5a052e6e312caff5e9f739b149feb402d13719af967b2d6
+
+patch_url = https://github.com/3n16m4/meson-patch-files/blob/master/range-v3-0.11.0-wrap.zip?raw=true
+patch_filename = range-v3-0.11.0-1-wrap.zip
+patch_hash = f71311407d8f9510e975b1fe32a8b62b32fd4951c44da7024af070185f997b94
+
+[provide]
+range = range_dep
+

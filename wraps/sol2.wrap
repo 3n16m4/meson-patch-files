@@ -1,0 +1,13 @@
+[wrap-file]
+directory = sol2-3.2.3
+source_url = https://github.com/ThePhD/sol2/archive/refs/tags/v3.2.3.zip
+source_filename = sol2-3.2.3.zip
+source_hash = 241187d2df77e0e0f16b7e8710a63ffb4d0f263366e74e8f3d00aecf8e08ac69
+
+patch_url = https://github.com/3n16m4/meson-patch-files/blob/master/sol2-3.2.3-1-wrap.zip?raw=true
+patch_filename = sol2-3.2.3-1-wrap.zip
+patch_hash = 4b0ab381a87f842bc9328e37aec47e82c5c2b347a792a7949a92994810a61b97
+
+[provide]
+sol2 = sol2_dep
+

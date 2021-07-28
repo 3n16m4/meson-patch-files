@@ -1,0 +1,13 @@
+[wrap-file]
+directory = boost_1_76_0
+source_url = https://boostorg.jfrog.io/artifactory/main/release/1.76.0/source/boost_1_76_0.tar.gz
+source_filename = boost_1_76_0.tar.gz
+source_hash = 7bd7ddceec1a1dfdcbdb3e609b60d01739c38390a5f956385a12f3122049f0ca
+
+patch_url = https://github.com/3n16m4/meson-patch-files/blob/master/boost_1_76_0_1_wrap.zip?raw=true
+patch_filename = boost_1_76_0_1_wrap.zip
+patch_hash = 8185a45992c3a287405c908c36e22110638607d4727bb22819375b95a0d494d2
+
+[provide]
+boost = boost_dep
+
