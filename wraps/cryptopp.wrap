@@ -6,7 +6,7 @@ source_hash = e30b5323debcffa7962a011ddb08543fd3e8a4ce50ab3acc6f4a6f2cb88318fd
 
 patch_url = https://github.com/3n16m4/meson-patch-files/blob/master/cryptopp-8.5.0-1-wrap.zip?raw=true
 patch_filename = cryptopp-8.5.0-1-wrap.zip
-patch_hash = 80ae09c9ff04bbedc59d4ca5a8040a387c602a8146d44a0b0ef1e2d8e6d5aa10
+patch_hash = 7b23e421e3bebddf124a10a87b7cd6041b90816b5a75cb4afe0ae71f64f5354f
 
 [provide]
 cryptopp = cryptopp_dep
