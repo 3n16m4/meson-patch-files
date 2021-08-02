@@ -1,9 +1,12 @@
 [wrap-file]
-directory = cryptopp
+directory = cryptopp-8.5.0
 source_url = https://github.com/3n16m4/meson-patch-files/blob/master/cryptopp-8.5.0.tar.gz?raw=true
-source_file = cryptopp-8.5.0.tar.gz
+source_filename = cryptopp-8.5.0.tar.gz
 source_hash = e30b5323debcffa7962a011ddb08543fd3e8a4ce50ab3acc6f4a6f2cb88318fd
 
 patch_url = https://github.com/3n16m4/meson-patch-files/blob/master/cryptopp-8.5.0-1-wrap.zip?raw=true
-patch_file = cryptopp-8.5.0-1-wrap.zip
+patch_filename = cryptopp-8.5.0-1-wrap.zip
 patch_hash = 80ae09c9ff04bbedc59d4ca5a8040a387c602a8146d44a0b0ef1e2d8e6d5aa10
+
+[provide]
+cryptopp = cryptopp_dep
