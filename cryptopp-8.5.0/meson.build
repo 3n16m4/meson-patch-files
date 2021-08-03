@@ -3,7 +3,7 @@ project('cryptopp', 'cpp',
 	license: 'MIT',
 	default_options : ['warning_level=2', 'cpp_std=c++14'])
 
-include = include_directories('cryptopp')
+include = include_directories('.')
 
 cpp_args = [
 	'-DCRYPTOPP_DISABLE_SSSE3',
