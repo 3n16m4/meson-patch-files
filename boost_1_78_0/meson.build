@@ -1,5 +1,7 @@
 project('boost', 'cpp', version: '1.78.0',
-        license: 'Boost, libc++')
+        license: 'Boost, libc++',
+        default_options : ['warning_level=0']
+)
 
 boost_inc = include_directories('.')
 
