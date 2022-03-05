@@ -1,4 +1,4 @@
-project('boost', 'cpp', version: '1.76.0',
+project('boost', 'cpp', version: '1.78.0',
         license: 'Boost, libc++')
 
 boost_inc = include_directories('.')
