@@ -4,6 +4,8 @@ project('fmt', 'cpp',
     default_options : ['cpp_std=c++14']
 )
 
+fmt_private_cpp_args = [ ]
+fmt_interface_cpp_args = [ ]
 fmt_inc = include_directories('include')
 fmt_lib = library('fmt',
     sources : [
