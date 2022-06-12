@@ -2,11 +2,11 @@
 directory = mysql-0.2.0
 source_url = https://github.com/anarthal/mysql/archive/refs/tags/0.2.0.tar.gz
 source_filename = mysql-0.2.0.tar.gz
-source_hash = 4444b049b2cccc42cba109cc6565cc43b1a40d3d64f927ea325a7b2c51985172
+source_hash = ab3d1d9a7ff26609689f8e72a9acf5a54187530ab42470fd14f0a6a21622ddc5
 
 patch_url = https://github.com/3n16m4/meson-patch-files/blob/master/mysql-0.2.0-1-wrap.zip?raw=true
 patch_filename = mysql-0.2.0-1-wrap.zip
-patch_hash = 7b23e421e3bebddf124a10a87b7cd6041b90816b5a75cb4afe0ae71f64f5354f
+patch_hash = b6295d744abbb90daeab4803825c0f2a4a7b5f32d25f0b0864847d91cfb5dc65
 
 [provide]
 mysql = mysql_dep
